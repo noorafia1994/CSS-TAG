@@ -1,0 +1,171 @@
+	  
+#all{
+	width:1200px;
+	margin:auto;
+	
+	
+	
+}
+
+#header{
+	
+	width:1200px;
+	height:100px;
+	background-color:black;
+	color:white;
+	
+}
+
+
+#header h1{
+	
+	text-align:center;
+}
+
+#navbar{
+	
+	width:1200px;
+	height:50px;
+	background-color:gray;
+	color:white;
+	margin-top:-20px;
+	
+	
+	
+}
+#navbar h1{
+	
+	 list-style: none;
+	     margin:0px;
+}
+
+#navbar ol li{
+
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: MediumSeaGreen;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:Lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#navbar ol li a{
+	text-decoration: none;
+}
+
+#navbar h1{
+	
+	text-align:center;
+}
+
+#navbar ul li a:hover{ background-color:#FF0000;
+							padding:100px;}
+
+
+
+#Maincontent{
+	width:600px;
+	height:700px;
+	background-color:LightGray;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:100px;
+	
+}
+
+
+#Maincontent h1{
+	
+	text-align:center;
+}
+
+
+#sidebar{
+
+   width:300px;
+	height:700px;
+	background-color:gray;
+	float:right;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:200px;
+}
+
+#sidebar h1{
+      
+	  text-align:center;
+	  
+	  }
+	  
+
+
+#Footer{
+	
+	width:1200px;
+	height:100px;
+	background-color:Black;
+	color:white;
+	clear:both;
+	margin-top:-1000px;
+	
+}
+
+}
